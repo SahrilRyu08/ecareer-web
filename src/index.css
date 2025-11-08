@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* util kecil */
+.container-xx{ max-width:1200px; margin:0 auto; padding:24px 18px }
+.card{ @apply border border-border rounded-2xl bg-card p-4 }
+.badge{ @apply inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-sm text-[13px] border-border text-muted }
